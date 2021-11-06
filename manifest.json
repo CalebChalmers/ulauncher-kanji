@@ -1,0 +1,19 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Kanji",
+    "description": "Lookup the readings and meanings of Kanji, or search for Kanji by their meanings",
+    "developer_name": "Caleb Chalmers",
+    "icon": "images/icon.png",
+    "options": {
+      "query_debounce": 0.05
+    },
+    "preferences": [
+      {
+        "id": "keyword",
+        "type": "keyword",
+        "name": "Kanji",
+        "description": "Kanji dictionary search",
+        "default_value": "ka"
+      }
+    ]
+  }
